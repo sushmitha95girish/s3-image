@@ -17,7 +17,7 @@ mongoose.connect("mongodb+srv://sushmitha:sushmitha@cluster0.gjnt2sv.mongodb.net
 })
   .then(client => {
     console.log('mongo connected');
-    //const db = client.db('myApp');
+
     //const collection = db.collection('images');
     //app.locals.imageCollection = collection;
 
